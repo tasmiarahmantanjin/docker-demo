@@ -67,6 +67,39 @@ docker ps -a
 ```
 docker rm <CONTAINER_NAME or CONTAINER_ID>
 ```
-9. Build a docker image
-10. Run a docker image
-11. Build a docker image from docker container
+5. Build a docker image
+```
+docker build -t <image_name_you_want_to_give> . (. means build the image in current directory)
+```
+6. Run a docker container with image
+```
+docker run -it -rm -p 4678(hostport):45678(container_port) --name <container_name_you_want_to_give> <image_name or Image_id>
+# check the official docker documentation to have better idea about more flags: https://docs.docker.com/engine/reference/commandline/build/
+```
+7. Build a docker image from docker container
+```
+docker commit <CONTAINER_NAME> <image-name_you_want_to_give>
+```
+8. To open a new terminal indide docker container
+```
+docker exec -it <CONATINER_NAME> bash
+```
+9. Move to attach move if a container running in detach move
+````
+docker attach <CONTAINER_NAME>
+````
+10. Check the docker daemon status, stop, start, restart
+````
+sudo systemctl status docker
+sudo systemctl start docker
+sudo systemctl stop docker
+sudo systemctl restart docker
+````
+
+
+### Some Nice Resources if you want to learn more about Docker (of course official docker documentation's are the BEST)
+1. https://docs.docker.com/get-started/
+2. https://docs.docker.com/engine/reference/run/
+3. https://www.bogotobogo.com/DevOps/Docker/Docker-Cheat-Sheet.php
+4. https://www.youtube.com/watch?v=fqMOX6JJhGo
+4. https://github.com/wsargent/docker-cheat-sheet
