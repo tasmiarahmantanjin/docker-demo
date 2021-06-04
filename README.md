@@ -1,5 +1,5 @@
 ### How to install docker?
-  1. https://docs.docker.com/engine/install/ubuntu/
+1. https://docs.docker.com/engine/install/ubuntu/
 
 ### Getting Started with coreSUP-Docker
 1. Copy the following script to setup_docker.sh file and place it to project root directory. Edit Line 4, 8 & 12 of setup_docker.sh occording to your product folder location
@@ -96,10 +96,9 @@ sudo systemctl stop docker
 sudo systemctl restart docker
 ````
 
-
-### Some Nice Resources if you want to learn more about Docker (of course official docker documentation's are the BEST)
+### Some Nice Resources if you want to check more about Docker (of course official docker documentation's are the BEST)
 1. https://docs.docker.com/get-started/
 2. https://docs.docker.com/engine/reference/run/
 3. https://www.bogotobogo.com/DevOps/Docker/Docker-Cheat-Sheet.php
 4. https://www.youtube.com/watch?v=fqMOX6JJhGo
-4. https://github.com/wsargent/docker-cheat-sheet
+5. https://github.com/wsargent/docker-cheat-sheet
