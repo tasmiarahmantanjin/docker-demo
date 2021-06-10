@@ -1,4 +1,4 @@
-### How to install docker?
+### How to install docker in Ubuntu?
 1. https://docs.docker.com/engine/install/ubuntu/
 
 ### Getting Started with coreSUP-Docker
@@ -51,7 +51,7 @@ docker run -ti --name coresup-docker-container -p 21099:21098 -p 8001:8000 cores
 6. TA-DA!!! You are good to try signal manipulations and the app is up and running with docker.
 
 ### Some Basic Docker command
-1. List all the docker image
+1. List all the docker images
 ```
 docker images
 ```
