@@ -48,7 +48,7 @@ docker run -ti --name coresup-docker-container -p 21099:21098 -p 8001:8000 cores
 ```
 4. Open browser inside sica dev-end and navigate 127.0.0.1:8001
 5. Open Diagtool and Set Remote Config with 127.0.0.1:21099
-6. TA-DA!!! You are good to try signal manipulations and the app is up and running with docker.
+6. TAAAA-DAAAA!!! You are good to try signal manipulations and the app is up and running with docker.
 
 ### Some Basic Docker command
 1. List all the docker images
